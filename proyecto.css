@@ -1,0 +1,228 @@
+.body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top right, rgb(1, 1, 12) 54%, rgba(1, 1, 12, 0.568));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main {
+    display: flex;
+    color: white;
+}
+.section1 {
+    width: 350px;
+    height: 929px;
+    background-color: rgba(7, 9, 31, 0.274);
+}
+.apptitulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 46x;
+    padding-left: 15px;
+    border-bottom: 2px solid rgb(46, 45, 92);
+}
+.izqmedio {
+    height: 525px;
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    .divizqmedioA {
+        display: flex;
+        align-items: center;
+        height: 75px;
+        width: 100%;
+        padding-left: 15px;
+        background-color: rgba(4, 5, 19, 0.274);
+        color: white;
+        border: none;
+        gap: 20px;
+        cursor: pointer;
+    }
+    .divizqmedioA:focus {
+        background-color: rgba(57, 60, 104, 0.274);
+        border-radius: 8px;
+    }
+    .divizqmedioA i {
+        font-size: 20px;
+    }
+    .topA {
+        height: 5px;
+        margin-left: -10px;
+    }
+    .topB {
+        color: rgb(46, 45, 92);
+    }
+    .divizqmedioB {
+        height: 48px;
+        padding-left: 12px;
+        border-bottom: 1px solid rgb(46, 45, 92);
+    }
+    .blanco {
+        height: 5px;
+    }
+    .gris {
+        color: rgb(46, 45, 92);
+    }
+    .addnew {
+        margin-top: 15px;
+    }
+    .addnew i {
+        margin-top: 12px;
+        margin-left: 80px;
+        position: absolute;
+        background-color: white;
+        border-radius: 100%;
+        color: #1a1a1a;
+        padding: 1px 2px 1px 2px;
+        pointer-events: none;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 45px;
+        color: white;
+        background-color: rgba(23, 23, 88, 0.24);
+        border-radius: 8px;
+        border: 1px solid rgb(46, 45, 92);
+        cursor: pointer;
+    }
+    .button:focus {
+        background-color: rgba(38, 38, 88, 0.24);
+    }
+}
+.linea {
+    height: 260px;
+    margin: 0 10px 0 10px;
+    border-top: 1px solid rgb(46, 45, 92);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid rgb(46, 45, 92);
+    .color {
+        color: rgb(108, 250, 120);
+        font-weight: bold;
+    }
+}
+.section2 {
+    display: flex;
+    width: 612px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+    .centro {
+        display: flex;
+        align-items: center;
+        height: 450px;
+        gap: 50px;
+    }
+    .letras {
+        display: flex;
+        flex-direction: column;
+    }
+    .luna {
+        display: flex;
+        color: #FFD700;
+        font-size: 250px;
+    }
+    .letragrande p {
+        margin: 0;
+        font-size: 150px;
+    }
+    .letrachica {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    .letrachica p {
+        margin: 2px;
+    }
+}
+.luncentro {
+    height: 140px;
+    width: 750px;
+    border: 1px solid rgb(46, 45, 92);
+    border-radius: 8px;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1px;
+    margin: 0px;
+    list-style: none;
+    gap: 8px;
+}
+.licentro {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+.licentro2 {
+    color: #cc340e;
+    font-size: 30px;
+}
+.section3 {
+    width: 400px;
+    margin: 85px 35px 250px 0;
+    background-color: rgba(23, 23, 88, 0.24);
+    border: 1px solid rgb(46, 45, 92);
+    border-radius: 8px;
+    .ul2 {
+        list-style: none;
+        margin: 30px 25px 30px 25px;
+        padding: 0;
+    }
+    .liul2 {
+        display: flex;
+        align-items: center;
+        height: 65px;
+        border-bottom: 1px solid rgb(46, 45, 92);
+    }
+    .liul2A {
+        margin: 0 15px 0 15px;
+    }
+    .liul2b {
+        margin-left: auto;
+    }
+    .lunanaranja {
+        color: #cc340e;
+    }
+    .nubegris {
+        color: gray
+    }
+}
+@media screen and (max-width:1575px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:765px) {
+        .luncentro {
+        display: flex;
+        width: 240px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .licentro {
+        height: 50px;
+    }
+    .licentro2 {
+        align-items: center;
+    }
+}
